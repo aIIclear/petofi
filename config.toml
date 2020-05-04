@@ -1,22 +1,22 @@
-main.name = "petofikid"
+main.name = "name"
 main.lang = "en"
-main.whitelist = [ "pineapple",]
+main.whitelist = [ "apple",]
 main.plugins.grid.enabled = true
 main.plugins.grid.report = true
-main.plugins.grid.exclude = [ "pineapple",]
+main.plugins.grid.exclude = [ "apple",]
 
 main.plugins.memtemp.enabled = false
 main.plugins.memtemp.orientation = "horizontal"
 main.plugins.memtemp.scale = "celsius"
 
 main.plugins.wpa-sec.enabled = true
-main.plugins.wpa-sec.api_key = "0fd6c5aaea1b31b0821255290694ea54"
+main.plugins.wpa-sec.api_key = " "
 main.plugins.wpa-sec.api_url = "https://wpa-sec.stanev.org"
 main.plugins.wpa-sec.download_results = true
 main.plugins.wpa-sec.whitelist = []
 
 main.plugins.onlinehashcrack.enabled = true
-main.plugins.onlinehashcrack.email = "petoffi_kid@protonmail.com"
+main.plugins.onlinehashcrack.email = " "
 main.plugins.onlinehashcrack.dashboard = ""
 main.plugins.onlinehashcrack.single_files = false
 main.plugins.onlinehashcrack.whitelist = []
@@ -24,7 +24,7 @@ main.plugins.onlinehashcrack.whitelist = []
 main.plugins.bt-tether.enabled = true
 main.plugins.bt-tether.devices.ios-phone.enabled = true
 main.plugins.bt-tether.devices.ios-phone.search_order = 1
-main.plugins.bt-tether.devices.ios-phone.mac = "B8:63:4D:14:6A:56"
+main.plugins.bt-tether.devices.ios-phone.mac = "B8:63:46"
 main.plugins.bt-tether.devices.ios-phone.ip = "172.20.10.6"
 main.plugins.bt-tether.devices.ios-phone.netmask = 24
 main.plugins.bt-tether.devices.ios-phone.interval = 1
@@ -60,7 +60,7 @@ main.plugins.gps.device = "/dev/ttyUSB0"
 main.plugins.webgpsmap.enabled = false
 
 main.plugins.wigle.enabled = true
-main.plugins.wigle.api_key = "41aec48de589a80d3ca77e456a583b89"
+main.plugins.wigle.api_key = "a80d3ca789"
 main.plugins.wigle.whitelist = []
 
 main.plugins.paw-gps.enabled = false
@@ -108,7 +108,7 @@ main.plugins.aircrackonly.face = "(>.<)"
 main.plugins.aircrackonly.enabled = true
 
 main.plugins.telegram.enabled = false
-main.plugins.telegram.bot_token = "1124580186:AAH5S9XwWd6gdYClHHqmh_mSgQMDCvo5Dl4"
+main.plugins.telegram.bot_token = " "
 main.plugins.telegram.bot_name = "pawned"
 main.plugins.telegram.send_picture = true
 main.plugins.telegram.send_message = true
@@ -134,8 +134,8 @@ main.log.rotation.size = "10M"
 
 ui.web.enabled = true
 ui.web.address = "0.0.0.0"
-ui.web.username = "petofi"
-ui.web.password = "oooo"
+ui.web.username = ""
+ui.web.password = ""
 ui.web.port = 8080
 ui.web.on_frame = ""
 ui.web.origin = ""
